@@ -1,0 +1,2 @@
+lists = list()
+print(lists)
