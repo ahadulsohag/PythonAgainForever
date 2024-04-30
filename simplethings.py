@@ -7,3 +7,7 @@ while i==9:
     i+=1
     for j in range(0,2):
         print("haha")
+
+for k in range(0,9):
+    for l in range(0,k):
+        print(l)
