@@ -8,6 +8,6 @@ while i==9:
     for j in range(0,2):
         print("haha")
 
-for k in range(0,9):
+for k in range(1,4):
     for l in range(0,k):
         print(l)
