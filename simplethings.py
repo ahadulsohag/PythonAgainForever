@@ -9,5 +9,5 @@ while i==9:
         print("haha")
 
 for k in range(1,4):
-    for l in range(0,k):
-        print(l)
+    for l in range(k,4):
+        print("*")
