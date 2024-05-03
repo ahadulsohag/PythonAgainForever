@@ -4,3 +4,5 @@ print(lists)
 
 lists1= {1,2,3,4,5}
 print(lists1)
+lists1.clear()
+print(lists1)
