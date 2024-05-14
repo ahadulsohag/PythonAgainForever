@@ -4,3 +4,4 @@ while i in range(0,10):
     i+=1
 for j in range(0,3):
     print(j)
+
