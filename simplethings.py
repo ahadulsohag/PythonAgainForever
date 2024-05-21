@@ -1,2 +1,2 @@
-print("Hello World!")
-print("Last Hello World!")
+print("Hello world")
+print(34)
