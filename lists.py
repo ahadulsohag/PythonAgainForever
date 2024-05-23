@@ -40,3 +40,12 @@ print(x)
 list2.sort()
 x = list2[::-1]
 print(x)
+y = list2[:]
+y.append("df")
+print(list2)
+print(y)
+print(list2)
+m = [1, 2, 3, 4, 5, 6]
+n = [i*i for i in m]
+print(m)
+print(n)
