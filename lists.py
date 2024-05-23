@@ -22,3 +22,8 @@ print(alist)
 alist.remove("banana")
 print(alist)
 print(len(alist))
+alist.reverse()
+print(alist)
+alist= [1, 3, 0, 4, 9]
+alist.sort()
+print(alist)
