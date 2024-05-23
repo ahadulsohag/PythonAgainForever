@@ -25,5 +25,12 @@ print(len(alist))
 alist.reverse()
 print(alist)
 alist= [1, 3, 0, 4, 9]
+slist = sorted(alist)
+print(slist)
 alist.sort()
 print(alist)
+alist.clear()
+alist = [4] * 3
+print(alist)
+alist1  = [2, 43, 4] + alist
+print(alist1)
