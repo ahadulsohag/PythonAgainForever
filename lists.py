@@ -1,6 +1,6 @@
-lists = list()
-#created empty list using list() function
-print(lists)
-
+alist = ["apple", "banana", "guava"]
+print(alist)
+alist1 = list()
+print(alist1)
 
 
