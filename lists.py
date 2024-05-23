@@ -11,3 +11,8 @@ if "guava" in alist:
     print("Yes")
 else:
     print("No")
+print(len(alist))
+alist.append("Strawberry")
+print(alist)
+alist.insert(0, "Pineapple")
+print(alist)
