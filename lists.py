@@ -34,3 +34,9 @@ alist = [4] * 3
 print(alist)
 alist1  = [2, 43, 4] + alist
 print(alist1)
+list2 = [1, 45, 64, 8 , 9, 5]
+x = list2[0:2]
+print(x)
+list2.sort()
+x = list2[::-1]
+print(x)
