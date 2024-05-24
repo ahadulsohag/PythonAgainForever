@@ -17,3 +17,12 @@ else:
     print("No")
 print(len(atuple))
 print(atuple.count("df"))
+print(atuple.index(4))
+alist = ["df", "khk", 4]
+print(alist.index(4))
+alist = tuple(atuple)
+print(alist)
+print(type(alist))
+atuple = list(alist)
+print(atuple)
+print(type(atuple))
