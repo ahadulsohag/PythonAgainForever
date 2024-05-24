@@ -11,3 +11,9 @@ a = ("df")
 print(type(a))
 a = ("df",)
 print(type(a))
+if "dfd" in atuple:
+    print("Yes")
+else:
+    print("No")
+print(len(atuple))
+print(atuple.count("df"))
