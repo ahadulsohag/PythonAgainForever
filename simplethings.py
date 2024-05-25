@@ -32,3 +32,10 @@ print(q)
 print(w)
 print(e)
 print(r)
+#unpacking tuple
+i1, *i2, i3 = xy
+print(i1)
+print(i3)
+print(i2)
+i5 = list(xy)
+print(i5)
