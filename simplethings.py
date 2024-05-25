@@ -39,3 +39,9 @@ print(i3)
 print(i2)
 i5 = list(xy)
 print(i5)
+import sys
+print(sys.getsizeof(i5), "bytes")
+print(sys.getsizeof(xy), "bytes")
+import timeit
+print(timeit.timeit(stmt= "(1, 2, 3, 4, 5)", number = 1000000))
+print(timeit.timeit(stmt= "[1, 2, 3, 4, 5]", number = 1000000))
