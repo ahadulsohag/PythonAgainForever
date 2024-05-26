@@ -4,3 +4,5 @@ user ["Email"] = "aha@gmail.com"
 print(user)
 user2 = dict(dfd = "dfd", kjl = "kjk" )
 print(user2)
+del user[("Name")]
+print(user)
