@@ -6,3 +6,7 @@ user2 = dict(dfd = "dfd", kjl = "kjk" )
 print(user2)
 del user[("Name")]
 print(user)
+user.popitem()
+print(user)
+user.pop("Age")
+print(user)
