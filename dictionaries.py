@@ -12,3 +12,11 @@ user.pop("Age")
 print(user)
 if "Institute" in user:
     print(user["Institute"])
+try:
+    print(user["Institute"])
+except:
+    print("Error")
+try:
+    print(user["fd"])
+except:
+    print("Error")
