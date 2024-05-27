@@ -24,3 +24,5 @@ for i in user:
     print(i)
 print(user.keys())
 print(user.values())
+for i, j in user.items():
+    print(i, j)
