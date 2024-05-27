@@ -20,3 +20,5 @@ try:
     print(user["fd"])
 except:
     print("Error")
+for i in user:
+    print(i)
