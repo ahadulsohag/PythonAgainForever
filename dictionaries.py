@@ -1,4 +1,4 @@
-user = {"Name": "Sohag", "Age": 23, "Institute": "SMUCT"}
+user = {"Name": "Sohag", "Age": 23, "Institute": "SMUCT", "dfds": "df", "kkk": "r343"}
 print(user)
 user ["Email"] = "aha@gmail.com"
 print(user)
@@ -23,3 +23,4 @@ except:
 for i in user:
     print(i)
 print(user.keys())
+print(user.values())
