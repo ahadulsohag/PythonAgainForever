@@ -26,3 +26,6 @@ print(user.keys())
 print(user.values())
 for i, j in user.items():
     print(i, j)
+k = {"fd":"dfd", "32423": "jkj", 3:"kj"}
+j = k
+print(type(j))
