@@ -51,3 +51,17 @@ ds = "".join(wd)
 print(ds)
 ds = " ".join(wd)
 print(ds)
+from timeit import default_timer as timer
+exp1 = ["d"] * 100000
+start = timer()
+xx = ""
+#bad practice
+for i in exp1:
+    xx += i
+stop = timer()
+print(stop - start)
+#good practice
+start = timer()
+xy = " ".join(exp1)
+stop = timer()
+print(stop - start)
