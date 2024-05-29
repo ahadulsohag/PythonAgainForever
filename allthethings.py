@@ -27,3 +27,7 @@ G = "    Soh            ag   "
 G = G.strip()
 print(G)
 print(2334)
+print(G.upper())
+print(G.lower())
+print(G.startswith("S"))
+print(G.endswith("df"))
