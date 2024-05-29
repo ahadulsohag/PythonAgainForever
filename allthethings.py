@@ -19,3 +19,7 @@ N = "Sohag"
 print(G + " " + N)
 d = G + " " + N
 print(d)
+x = 1
+for i in G, N:
+    print(x)
+    x+=1
