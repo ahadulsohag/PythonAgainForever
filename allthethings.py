@@ -82,3 +82,5 @@ var = 3.7878
 var1 = 167657.234
 vari = "I am {:.2f} and {}".format(var1, var)
 print(vari)
+vari = f"I am {var} and {var1}"
+print(vari)
