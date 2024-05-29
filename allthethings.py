@@ -78,3 +78,7 @@ vari = "I am %.2f" %var
 print(vari)
 vari = "I am {}".format(var)
 print(vari)
+var = 3.7878
+var1 = 167657.234
+vari = "I am {:.2f} and {}".format(var1, var)
+print(vari)
