@@ -68,3 +68,13 @@ print(stop - start)
 var = "Sohag"
 vari = "I am %s" %var
 print(vari)
+var = 3
+vari = "I am %d" %var
+print(vari)
+var = 3.7878
+vari = "I am %f" %var
+print(vari)
+vari = "I am %.2f" %var
+print(vari)
+vari = "I am {}".format(var)
+print(vari)
