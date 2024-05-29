@@ -23,3 +23,7 @@ x = 1
 for i in G, N:
     print(x)
     x+=1
+G = "    Soh            ag   "
+G = G.strip()
+print(G)
+print(2334)
