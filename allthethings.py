@@ -40,8 +40,14 @@ print(d)
 w = "Hey,Whats,up!"
 d = w.split(" ")
 print(d)
-w = "Hey,Whats,up!"
-d = w.split(",")
+w = "Hey Whats up!"
+d = w.split(" ")
 print(d)
 s = " ".join(d)
 print(s)
+wd = ["a"] * 3
+print(wd)
+ds = "".join(wd)
+print(ds)
+ds = " ".join(wd)
+print(ds)
