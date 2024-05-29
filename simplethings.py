@@ -46,3 +46,10 @@ import timeit
 print(timeit.timeit(stmt= "(1, 2, 3, 4, 5)", number = 1000000))
 print(timeit.timeit(stmt= "[1, 2, 3, 4, 5]", number = 1000000))
 #sets
+a = {1, 2, 2, 3, 4, 5}
+b = {6, 7, 8, 9, 9, 10}
+print(type(a))
+print(a)
+print(b)
+c = a.intersection(b)
+print(c)
