@@ -62,3 +62,22 @@ print(c)
 d = list(c)
 d.sort()
 print(d)
+a = {1, 2, 2, 3, 4, 5, 6, 10}
+b = {6, 7, 8, 9, 9, 10, 1}
+b.symmetric_difference_update(a)
+print(b)
+a = {1, 2, 3, 4}
+b = {1, 2}
+print(a.issubset(b))
+print(b.issubset(a))
+print(a.issuperset(b))
+print(b.issuperset(a))
+print(a.isdisjoint(b))
+c = a
+c.add(9)
+print(a)
+print(c)
+d = set(a)
+d.add(100)
+print(a)
+print(d)
