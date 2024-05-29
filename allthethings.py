@@ -34,3 +34,14 @@ print(G.endswith("df"))
 print(G.find("a"))
 print(G.count("g"))
 print(G.replace("ag", "ga"))
+w = "Hey, Whats up!"
+d = w.split(" ")
+print(d)
+w = "Hey,Whats,up!"
+d = w.split(" ")
+print(d)
+w = "Hey,Whats,up!"
+d = w.split(",")
+print(d)
+s = " ".join(d)
+print(s)
