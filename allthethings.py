@@ -14,3 +14,8 @@ print(a[1:7])
 print(a[::2])
 print(a[::-1])
 print(a[7:])
+G = "Hello"
+N = "Sohag"
+print(G + " " + N)
+d = G + " " + N
+print(d)
