@@ -65,3 +65,6 @@ start = timer()
 xy = " ".join(exp1)
 stop = timer()
 print(stop - start)
+var = "Sohag"
+vari = "I am %s" %var
+print(vari)
