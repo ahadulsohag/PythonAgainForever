@@ -7,4 +7,3 @@ print(b)
 from collections import Counter
 s = "dfdfsdadfa"
 print(Counter(s))
-print(Counter(a))
