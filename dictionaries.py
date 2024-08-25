@@ -10,6 +10,7 @@ user.popitem()
 print(user)
 user.pop("Age")
 print(user)
+print(user)
 if "Institute" in user:
     print(user["Institute"])
 try:
