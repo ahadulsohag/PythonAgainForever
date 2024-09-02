@@ -27,7 +27,11 @@ print(type(clist))
 ctuple = (tuple(clist))
 print(ctuple)
 print(type(ctuple))
-numtuple = 1, 3, 4, 8, 9
+import sys
+numtuple = 1, 3, 4, 8, 9, 68, 342342345234, 8979789,
+numlist = [1, 3, 4, 8, 9]
+print(sys.getsizeof(numlist), "bytes")
+print(sys.getsizeof(numtuple), "bytes")
 print(type(numtuple))
 print(numtuple[::-1])
 i1, i2, i4, *i5,  = numtuple
