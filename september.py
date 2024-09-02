@@ -30,3 +30,8 @@ print(type(ctuple))
 numtuple = 1, 3, 4, 8, 9
 print(type(numtuple))
 print(numtuple[::-1])
+i1, i2, i4, *i5,  = numtuple
+print(i1)
+print(i2)
+print(i4)
+print(i5)
