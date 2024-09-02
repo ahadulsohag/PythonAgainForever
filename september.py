@@ -10,3 +10,11 @@ atuple = "citizen"
 print(type(atuple))
 atuple = "citizen", 
 print(type(atuple))
+blist = [2, "School", "School", "college"]
+print(type(blist))
+print(blist)
+btuple = tuple(blist)
+print(type(btuple))
+print(btuple)
+for i in btuple:
+    print(i)
