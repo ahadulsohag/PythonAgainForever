@@ -28,10 +28,13 @@ ctuple = (tuple(clist))
 print(ctuple)
 print(type(ctuple))
 import sys
+import timeit
 numtuple = 1, 3, 4, 8, 9, 68, 342342345234, 8979789,
 numlist = [1, 3, 4, 8, 9]
 print(sys.getsizeof(numlist), "bytes")
 print(sys.getsizeof(numtuple), "bytes")
+print(timeit.timeit(stmt= "[1, 2, 8, 9]", number= 10000))
+print(timeit.timeit(stmt= "1, 2, 8, 9", number= 10000))
 print(type(numtuple))
 print(numtuple[::-1])
 i1, i2, i4, *i5,  = numtuple
