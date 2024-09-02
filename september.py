@@ -1,8 +1,2 @@
-l = ["df", 2, 9, "dkj"]
-print(l)
-l.append(3)
-
-l.insert(2, "kjkjjiijij9")
-print(l)
-l.pop()
-print(l)
+newlist = [0]*5
+print(newlist)
