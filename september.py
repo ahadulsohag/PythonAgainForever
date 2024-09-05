@@ -1,5 +1,6 @@
 newlist = [2, 3, 7, 9, 9, 0]
 print(newlist)
+print(type(newlist))
 extra = [i*i for i in newlist]
 print(extra)
 atuple = ("cat", "dog")
