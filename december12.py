@@ -1,4 +1,6 @@
-lis = list()
-print(type(lis))
-list1 = ["d", 2, "dfkdfsd"]
-print(type(list1))
+alist = list()
+print(alist)
+print(type(alist))
+blist = ["apple", "banana", 1]
+clist = blist[2]
+print(clist)
