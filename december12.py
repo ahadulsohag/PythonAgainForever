@@ -11,3 +11,5 @@ print(blist)
 print(len(blist))
 newlist = [3, 5, 1, 4, 0]
 print(sorted(newlist))
+atuple = ("d", 1)
+print(type(atuple))
