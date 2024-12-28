@@ -16,3 +16,10 @@ print(d)
 i = (1, 2, 3, 4, 5)
 i1, i2, i3, i4, i5 = i
 print(type(i2))
+di = {"apple": 2, "banana":23}
+di["pineapple"] = 45
+print(di)
+try:
+    print(di["orange"])
+except:
+    print("KeyError")
