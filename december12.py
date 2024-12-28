@@ -6,3 +6,5 @@ print(alist)
 B = [1, 2, 3, 4, 5]
 C = [i*i for i in B]
 print(C)
+atuple = (1,)
+print(type(atuple))
