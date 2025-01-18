@@ -23,3 +23,7 @@ try:
     print(di["orange"])
 except:
     print("KeyError")
+
+mydict = {"apple": 2, "banana": 23, "pineapple": 45}
+for i, k in mydict.items():
+    print(i, k)
