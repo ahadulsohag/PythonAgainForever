@@ -1,13 +1,20 @@
-def print_with_memory():
-  record = []
+def me(person):
+  coins = 3
+  def play_game():
+    nonlocal coins
+    coins-=1
+    if coins>1:
+      print("\n"+ person +" has "+str(coins)+" left.")
+    elif coins == 1:
+      print("\n" + person + " has "+ str(coins)+ " left.")
+    else:
+      print("\n"+ person + " is out of coin.")
+  return play_game
 
-  def inner(data):
-    print(data)
-    record.append(data)
-    print(record)
-  return inner
+tommy = me("A")
+tommy = me("AB")
+jenny = me("jenny")
 
-print_ = print_with_memory()
-
-print_("haha")
-print_("hihi")
+tommy()
+jenny()
+tommy()
