@@ -11,10 +11,13 @@ def me(person):
       print("\n"+ person + " is out of coin.")
   return play_game
 
-tommy = me("A")
-tommy = me("AB")
-jenny = me("jenny")
+tommy = me("T")
+tommy = me("T*")
+
+jenny = me("J")
+jenny = me("j*")
 
 tommy()
 jenny()
 tommy()
+jenny()
